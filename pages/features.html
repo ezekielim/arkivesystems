@@ -70,25 +70,36 @@
           </nav>
         </div>
       </header>
-
-      <!-- <img src="https://source.unsplash.com/iEiUITs149M/3840x750" class="img-fluid" style="margin-top: 4rem; margin-bottom: 4rem;" alt="Responsive image"> -->
-
-      <!-- <main class="px-3" style="margin-top: 8rem;">
-    <h1>Who we are</h1>
-    <p class="lead">At Arkive Systems we offer services to create custom digital business solutions. Our highly experienced professionals are here to help you design and build the solution you need to protect and grow your business.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-    </p>
+      <contact>
+        <p class="h1 text-center" style="margin-top: 2rem">
+          Accepting new clients
+        </p>
+  
+        <p class="btn btn-primary" style="width: 20rem; margin: auto">
+          <!-- Calendly link widget begin -->
+          <link
+            href="https://assets.calendly.com/assets/external/widget.css"
+            rel="stylesheet"
+          />
+          <script
+            src="https://assets.calendly.com/assets/external/widget.js"
+            type="text/javascript"
+            async
+          ></script>
+          <a
+            style="color: white; text-decoration: none"
+            href=""
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arkivesystems?hide_landing_page_details=1&primary_color=6900ff'});return false;"
+            >We pick up and deliver</a
+          >
+          <!-- Calendly link widget end -->
+        </p>
+      </contact>
     
-  </main> -->
 
       <main2 class="services px-3" style="margin-top: 8rem">
         <style>
-          /* @media screen (max: 480px){
-            .serviceSection {
-              width: 10px;
-            }
-          } */
+         
           
           
           /*  */
@@ -96,7 +107,6 @@
             .services {
               display: flex;
               flex-direction: column;
-              /* align-self: center; */
               justify-content: center;
               
               width: 70rem;
@@ -105,31 +115,54 @@
             .serviceSection {
               width: 40rem;
             }
-            
+            .computerImg1 {
+              height: 425px;
+            }
           }
           /*  */
-          /* @media (max-width: 1024px) {
-            .services {
-              display: flex;
-              flex-direction: row;
-              justify-content: center;
-
+          @media (max-width: 768px) {
+            .computerImg1 {
+              height: 60vw;
             }
-            .serviceSection {
-              width: 35rem;
-            }
-          } */
+          }
           /*  */
-          @media (min-width:1024px){
+          @media (min-width:1024px)  {
             .services {
               flex-direction: row;
               align-self: center;
               width: 80rem;
             }
-            /* @media (min-width:1610px){
-            .services {
-              width: 100rem;
-            } */
+            .computerImg1 {
+              height: 270px
+
+            }
+            .sectionDiv {
+              margin-left: 10px;
+              margin-right: 10px;
+
+            }
+          }
+          @media (max-width:1266px) and (min-width:1025px) {
+            .sectionDiv {
+              margin-left: 0;
+              margin-right: 0;
+
+            }
+            .services{
+              width: 65rem;
+            }
+            .computerImg1 {
+              padding-bottom: 24px;
+              height: 246px
+
+            }
+            @media (max-width:664px) and (min-width:500px){
+              .computerImg1 {
+              
+              height: 10px
+
+            }
+            }
           }
           
         </style>
@@ -141,12 +174,12 @@
             class="bg-image hover-overlay ripple"
             data-mdb-ripple-color="light"
           >
-            <!-- <img
-              src="https://source.unsplash.com/1GntEP783rI"
-              width="300px"
-              height="445px"
+            <img class="computerImg1"
+              src="https://source.unsplash.com/s6uS36SF91Y"
+              width="img-fluid"
+              height="275px"
               
-            /> -->
+            />
             <a href="#!">
               <div
                 class="mask"
@@ -200,7 +233,7 @@
         <br />
 
         <div
-          class="serviceSection card text-center border border-primary shadow-0"
+          class="serviceSection sectionDiv card text-center border border-primary shadow-0"
           style="
             background-color: #ffffff;
             /* margin-left: 1rem;
@@ -233,7 +266,6 @@
                 <ul>
                   <li>iPhone, Samsung, or Google</li>
                   <li>Huawei, LG, Android tablets, iPad and many others!</li>
-                  <!-- <li></li> -->
                 </ul>
               </li>
               <br />
@@ -258,18 +290,7 @@
                   <li>
                     Mobile device tune up (Any model and year)
                   </li>
-                  <!-- <li>
-                    Computer setup, and custom building
-                    <ul>
-                      <li>Gaming setup</li>
-
-                      <li>Machine learning & Software development</li>
-                      <li>Office, and WFH setup</li>
-                      <li>Film & Photographer</li>
-                      <li>Online streaming, and conferencing</li>
-                      
-                    </ul>
-                  </li> -->
+                  
                 </ul>
               </li>
             </ul>
@@ -288,9 +309,9 @@
             data-mdb-ripple-color="light"
           >
             <img
-              src="https://source.unsplash.com/pKRNxEguRgM"
+              src="https://source.unsplash.com/tZc3vjPCk-Q"
               class="img-fluid"
-              
+
             />
             <a href="#!">
               <div
@@ -306,10 +327,38 @@
             <p class="card-text">
               Got a project or a website idea? Let us build it for you!
             </p>
+            <ul class="card-text" style="text-align: start">
+            <li>
+              Website Design and Development
+              <ul>
+                <li>
+                  <strong>Don't know what the issue is?</strong> we can inspect and provide
+                  information related to your device.
+                </li>
+                <li>Implement device security, and virus mitigation</li>
+                <li>
+                  Hard Drive storage <strong>recovery</strong>, and Secure HDD
+                  & SSD Data wipe
+                </li>
+                <li>
+                  Computer setup, and custom building
+                  <ul>
+                    <li>Gaming setup</li>
+
+                    <li>Machine learning & Software development</li>
+                    <li>Office, and WFH setup</li>
+                    <li>Film & Photographer</li>
+                    <li>Online streaming, and conferencing</li>
+                    
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
           </div>
         </div>
       </main2>
-      <p class="h1 text-center" style="margin-top: 2rem">
+      <!-- <p class="h1 text-center" style="margin-top: 2rem">
         Accepting new clients
       </p>
 
@@ -331,7 +380,7 @@
           >We pick up and deliver</a
         >
         <!-- Calendly link widget end -->
-      </p>
+      </p> -->
 
       <footer class="mt-auto text-black-50">
         <p>ARKIVE SYSTEMS INC. | &copy; 2022 All rights reserved.</p>
